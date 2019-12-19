@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Telemática
+El laboratorio de Telemática es un espacio en el que los estudiantes de diferentes pregrados pueden realizar actividades académicas y prácticas, enfocadas principalmente en la configuración de redes. 
 
-You can use the [editor on GitHub](https://github.com/lisudea/telematica/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Equipos
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+El laboratorio cuenta con 28 equipos Lenovo ThinkCentre M720 con un procesador Intel Core i5 de octava generación, 8 GB de RAM y 1 TB de HDD. Éstos a su vez cuentan con una [tarjeta de red](./specs/hardware.md) adicional con el fin de poder hacer prácticas con redes en los equipos. 
 
-### Markdown
+Además el laboratorio cuenta  con:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Switches
+- Puntos de acceso
 
-```markdown
-Syntax highlighted code block
+## Software
 
-# Header 1
-## Header 2
-### Header 3
+### Sistema operativo
+Los equipos tienen instalado el sistema operativo [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) y poseen una única cuenta de usuario, la cual tiene permisos administrativos para poder efectuar las tareas que se deban realizar en las clases.
 
-- Bulleted
-- List
+- **Usuario:** telematica
+- **Contraseña:** root
 
-1. Numbered
-2. List
+### Aplicaciones y paquetes
 
-**Bold** and _Italic_ and `Code` text
+Si se necesita instalar una aplicación para el desarrollo de una actividad académica, por favor realizar una solicitud [creando un issue](https://github.com/lisudea/telematica/issues/new?assignees=&labels=&template=solicitud-de-instalaci-n-de-software.md&title=Solicitud+de+instalaci%C3%B3n+de+software) o redactar un correo a ``laboratoriois@udea.edu.co``.
 
-[Link](url) and ![Image](src)
-```
+A continuación se lista el software instalado para el desarrollo de las clases.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+| Aplicación | Información |
+|-|-|
+| build-essential   |Conjunto de herramientas y compiladores.|
+| Packet Tracer 7.2 |Programa de simulación de redes. Es necesario que el usuario ingrese con su cuenta de Cisco Academy o inicie la sesión como [invitado](./imgs/pt.png).|
+| VirtualBox        |Herramienta de virtualización, cuenta con una máquina virtual con ``Windows 10``. No necesita de credenciales para ser usada.|
+| Wireshark         |Analizador de protocolos.|
+| GTKTerm|Emulador de terminal.|
+| GNS3              |Simulador de red.|
+| Java 1.8          | Kit de desarrollo de Java 8.|
+| Android Studio    | IDE para Android.|
+| Qt Creator        | IDE para crear aplicaciones gráficas de y consola en C++.|
+| Node.js           | Entorno de ejecución de JavaScript, incluído su gestor de paquetes ``npm``.|
+| Angular | Framework para el desarrollo de aplicaciones web|
+| Ionic | SDK para el desarrollo de aplicaciones web híbridas|
+| Expo CLI | Plataforma para exponer aplicaciones web híbridas desarrolladas en React Native.| 
+| Visual Studio Code| Editor de texto. |
+| Sublime Text      | Editor de texto. |
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lisudea/telematica/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+---
+![lis](./imgs/logoLIS.png)
