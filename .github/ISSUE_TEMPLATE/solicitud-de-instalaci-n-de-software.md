@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-¡Estamos contentos de recibir tu solicitud! Por favor intenta realizarla en lo posoble con al menos una semana de anticipación.
+¡Estamos contentos de recibir tu solicitud! Por favor intenta realizarla en lo posible con al menos una semana de anticipación.
 
 Por favor rellena los siguientes campos:
 
@@ -17,7 +17,7 @@ Por favor rellena los siguientes campos:
 
 **Rol:** _¿Eres docente o estudiante?_
 
-**Asignatura:** _Nombre de la asignatura, semillero u otro que requiera la intalación de software._
+**Asignatura:** _Nombre de la asignatura, semillero u otro que requiera la instalación de software._
 
 **Descripción:** _Nombre y breve descripción del software que deseas instalar._
 
